@@ -3,12 +3,12 @@ __pycache__/
 .env
 *.log
 kaal_logo*.png
-kaal_logo*.txt
 *.safetensors
 *.bin
 models/
 data/
 *.jsonl
 secrets/
-monetization/
+.DS_Store
+.gradio/
 IP_STRATEGY.md
