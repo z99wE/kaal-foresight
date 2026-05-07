@@ -66,3 +66,12 @@ KAAL is built to exploit the massive **206GB VRAM** and memory bandwidth of the 
 KAAL is submitted as a mission-critical tool for infrastructure planning, corporate risk management, and long-term policy design.
 
 **Developed by:** [Your Name/Team Name]
+
+## Live Demo
+
+- HuggingFace Space: https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/kaal-foresight
+- Direct Demo: https://attendee-unengaged-explain.ngrok-free.dev
+
+## Infrastructure Note
+
+The AMD MI300X inference server runs on DigitalOcean GPU droplet. Since GPU droplets only expose ports 22, 80, and 443, we use ngrok to tunnel the Gradio UI publicly. The model server (serve_kaal.py) runs locally on the droplet and the UI connects to it via localhost for zero-latency inference.
