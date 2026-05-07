@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+.env
+*.log
+kaal_logo*.png
+kaal_logo*.txt
+*.safetensors
+*.bin
+models/
+data/
+*.jsonl
+secrets/
+monetization/
+IP_STRATEGY.md
