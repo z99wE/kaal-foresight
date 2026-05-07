@@ -3,9 +3,12 @@
 
 > "Because the future is too important for AI-generated fluff."
 
-**Live Demo:** https://attendee-unengaged-explain.ngrok-free.dev
-**HuggingFace Space:** https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/kaal-foresight
-**Model Weights:** https://huggingface.co/sf0Jmn/kaal-7b-lora
+| | Link |
+|---|---|
+| 🚀 **Live Demo** | [Launch KAAL](https://attendee-unengaged-explain.ngrok-free.dev) |
+| 🤗 **HuggingFace Space** | [kaal-foresight](https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/kaal-foresight) |
+| 🧠 **Model Weights** | [kaal-7b-lora](https://huggingface.co/sf0Jmn/kaal-7b-lora) |
+| 💻 **GitHub** | [kaal-foresight](https://github.com/z99wE/kaal-foresight) |
 
 ---
 
