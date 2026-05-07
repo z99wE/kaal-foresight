@@ -1,77 +1,31 @@
-# KAAL: Knowledge Agent Arbitration Layer
-### *Chrono-Synthetic Strategic Foresight powered by AMD Instinct™ MI300X*
+# KAAL — Knowledge Agent Arbitration Layer
+### *The Anti-Slop Intelligence Engine*
 
-[![AMD MI300X](https://img.shields.io/badge/Hardware-AMD%20Instinct%20MI300X-ED1C24?style=for-the-badge&logo=amd&logoColor=white)](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)
-[![ROCm 7.0](https://img.shields.io/badge/Software-ROCm%207.0-005387?style=for-the-badge)](https://rocm.docs.amd.com/)
-[![Hackathon](https://img.shields.io/badge/Hackathon-AMD%20Developer%20Lablab.ai-FFD700?style=for-the-badge)](https://lablab.ai/ai-hackathons/amd-developer)
+> "Because the future is too important for AI-generated fluff."
 
----
-
-## 👁️ The Vision: Solving the Future Backward
-Current LLMs are "Next-Token Predictors," not "Strategy Generators." **KAAL** (Knowledge Agent Arbitration Layer) is a specialized reasoning engine designed to solve the *Future Backward*. 
-
-Instead of simple extrapolation, KAAL uses a **Multi-Agent Adversarial Consensus** loop to identify systemic risks and strategic opportunities in 10, 25, and 50-year horizons.
-
----
-
-## 🧠 The KAAL Architecture (4-Agent Pipeline)
-
-KAAL does not just "answer" a prompt. It runs a digital "Conflict Room" where four specialized agents debate your query:
-
-| Agent | Core Logic | Role |
-| :--- | :--- | :--- |
-| **The Architect** | *Constructive* | Synthesizes a thesis based on uploaded evidence (PDFs/CSVs). |
-| **The Contrarian** | *Adversarial* | Actively attempts to falsify the Architect's thesis using stress-tests. |
-| **The Analyst** | *Reconciliatory* | Reconciles the divergence between the thesis and the critique. |
-| **The Synthesizer** | *Calibrated* | Produces a PhD-level strategic report with projected confidence levels. |
-
----
-
-## ⚡ AMD MI300X Hardware Advantage
-KAAL is built to exploit the massive **206GB VRAM** and memory bandwidth of the **AMD Instinct™ MI300X**.
-
-- **High-Fidelity Inference:** The MI300X allows us to maintain massive context windows (up to 32k tokens) across all 4 agents simultaneously without latency spikes.
-- **Quantization Efficiency:** Optimized via ROCm 7.0, achieving 2x throughput compared to standard H100 benchmarks for multi-agent orchestration.
-- **Model Depth:** Powers our custom fine-tuned **KAAL-LoRA** (based on Qwen2.5-7B) with zero-compromise precision.
-
----
-
-## 📊 Model Training & Science
-- **Training Set:** 532 high-precision foresight pairs.
-- **Source Data:** Curated from 208+ scientific and institutional sources (IPCC AR6, IEA World Energy Outlook, UN Population Projections, World Bank 2025).
-- **Fine-Tuning:** LoRA adapters trained on ROCm-optimized kernels. 
-- **Loss Convergence:** Reduced from 2.5 to **0.47**, ensuring highly calibrated "Think Tank" prose.
-
----
-
-## 🚀 Repository Structure
-- `app.py` — The Gradio-powered "Conflict Room" Dashboard.
-- `collect_data.py` — Automated scientific evidence scraper (arXiv/World Bank).
-- `build_dataset.py` — Synthetic data generator for backcasting logic.
-- `finetune.py` — ROCm-optimized training script for the MI300X.
-- `requirements.txt` — Full dependency stack.
-
----
-
-## 🛠️ Getting Started
-1. **Clone the Repo:** `git clone https://github.com/z99wE/kaal-foresight`
-2. **Install Dependencies:** `pip install -r requirements.txt`
-3. **Launch Engine:** `python app.py`
-
-*Note: Requires an active inference server running the KAAL-LoRA model on port 8000.*
-
----
-
-## 🏆 AMD Developer Hackathon — lablab.ai
-KAAL is submitted as a mission-critical tool for infrastructure planning, corporate risk management, and long-term policy design.
-
-**Developed by:** [Your Name/Team Name]
+Built on AMD MI300X (206GB VRAM) — AMD Developer Hackathon, lablab.ai
 
 ## Live Demo
+**https://attendee-unengaged-explain.ngrok-free.dev**
 
-- HuggingFace Space: https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/kaal-foresight
-- Direct Demo: https://attendee-unengaged-explain.ngrok-free.dev
+## HuggingFace Space
+**https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/kaal-foresight**
 
-## Infrastructure Note
+## What is KAAL?
+Most AI gives you confident-sounding guesses. KAAL gives you arbitrated intelligence — four adversarial agents that debate, attack, reconcile, and deliver calibrated long-horizon forecasts.
 
-The AMD MI300X inference server runs on DigitalOcean GPU droplet. Since GPU droplets only expose ports 22, 80, and 443, we use ngrok to tunnel the Gradio UI publicly. The model server (serve_kaal.py) runs locally on the droplet and the UI connects to it via localhost for zero-latency inference.
+## Agent Architecture
+| Agent | Role |
+|-------|------|
+| Architect | Builds strategic thesis from evidence |
+| Contrarian | Attacks and stress-tests the thesis |
+| Analyst | Reconciles conflict into balanced findings |
+| Synthesizer | Delivers final calibrated report |
+
+## Technical Stack
+- Base Model: Qwen2.5-7B-Instruct fine-tuned with LoRA
+- Training: 532 examples from 208 scientific sources
+- Hardware: AMD Instinct MI300X VF — ROCm 7.0 — 206GB VRAM
+- Training loss: 2.5 → 0.47
+
+## AMD Developer Hackathon — lablab.ai
