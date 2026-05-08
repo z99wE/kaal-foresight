@@ -1,5 +1,6 @@
 # KAAL — Knowledge Agent Arbitration Layer
-### *The Anti-Slop Intelligence Engine — Built on AMD MI300X + ROCm*
+### *The only Multi-Agent Reasoning engine built to solve the future backward.*
+#### *The Anti-Slop Intelligence Engine — Built on AMD MI300X + ROCm*
 
 > "Because the future is too important for AI-generated fluff."
 
